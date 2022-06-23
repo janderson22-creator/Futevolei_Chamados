@@ -1,0 +1,46 @@
+.newForm {
+    display: flex;
+    flex-direction: column;
+}
+
+.container{
+    background: #f8f8f8;
+}
+form textarea {
+    height: 100px;
+    resize: none;
+}
+
+form input[type="radio"]{
+    margin: 15px 0;
+}
+form input[type="radio"]:not(:first-child){
+    margin-left: 15px;
+}
+
+.status span{
+    padding-left: .5em;
+    font-size: 1.1em;
+}
+
+#buttonNew{
+    font-size: 15px;
+    border: none;
+    border-radius: 10px;
+    color: #FFF;
+
+    line-height: 1.2;
+    
+    text-transform: uppercase;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 600px;
+    height: 40px;
+
+    background: -webkit-linear-gradient(to left,#111 , #9D7515, #CAB831);
+    background: -o-linear-gradient(to left,#111 , #9D7515, #CAB831);
+    background: -moz-linear-gradient(to left,#111 , #9D7515, #CAB831);
+    background: linear-gradient(to left,#111 , #9D7515, #CAB831);
+}

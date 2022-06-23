@@ -1,0 +1,26 @@
+#customers {
+    display: flex;
+    flex-direction: column;
+}
+
+#button-add-client {
+    font-size: 15px;
+    border: none;
+    border-radius: 10px;
+    color: #FFF;
+
+    line-height: 1.2;
+    
+    text-transform: uppercase;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 600px;
+    height: 40px;
+
+    background: -webkit-linear-gradient(to left,#111 , #9D7515, #CAB831);
+    background: -o-linear-gradient(to left,#111 , #9D7515, #CAB831);
+    background: -moz-linear-gradient(to left,#111 , #9D7515, #CAB831);
+    background: linear-gradient(to left,#111 , #9D7515, #CAB831);
+}
